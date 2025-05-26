@@ -6,7 +6,7 @@
 | StackAllocBuilderLoop         | 2,426.32 ns | 22.552 ns | 17.607 ns |  2.30 |    0.02 | 0.4768 |      - |    8000 B |       0.561 |
 | PooledBuilder                 |   963.86 ns |  5.435 ns |  4.244 ns |  0.91 |    0.01 | 0.3242 |      - |    5440 B |       0.382 |
 
-// * Hints *
+* Hints *
 Outliers
   StringBuilderBenchmarks.RegularStringBuilder: Default          -> 2 outliers were removed, 3 outliers were detected (1.04 us, 1.08 us, 1.09 us)
   StringBuilderBenchmarks.NotOptimalCustomStringBuilder: Default -> 1 outlier  was  removed, 2 outliers were detected (1.61 us, 1.70 us)
@@ -14,7 +14,7 @@ Outliers
   StringBuilderBenchmarks.StackAllocBuilderLoop: Default         -> 3 outliers were removed (2.58 us..2.70 us)
   StringBuilderBenchmarks.PooledBuilder: Default                 -> 3 outliers were removed (984.37 ns..1.03 us)
 
-// * Legends *
+* Legends *
   Mean        : Arithmetic mean of all measurements
   Error       : Half of 99.9% confidence interval
   StdDev      : Standard deviation of all measurements
